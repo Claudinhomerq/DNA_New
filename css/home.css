@@ -1,0 +1,26 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.logo_dna_navbar {
+  width: 103px;
+  height: 101px;
+  margin-right: 144px;
+}
+
+.contatophone {
+  margin-left: 18px;
+}
+
+.caminhao_main {
+  background-size: cover;
+  width: 250vh;
+  background-image: url(/img/rastreador-de-caminhao-via-satelite-preco.jpg);
+}
+
+.container_nossainfra {
+  padding-top: 56px;
+}
+
+.risco {
+}
