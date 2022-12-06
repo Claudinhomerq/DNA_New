@@ -22,16 +22,18 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>DNA Solutions</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid justify-content-center">
-        <a class="navbar-brand" href="#"
+    <nav class="navbar sticky-top navbar-expand-lg bg-light" data-aos="fade-in">
+      <div class="container-fluid justify-content-evenly">
+        <a class="caixanav_logo" href="#"
           ><img
             src="img/png_sem fundo.png"
             alt="Logo da DNA"
             class="logo_dna_navbar"
+            id="trocar_img"
         /></a>
         <button
           class="navbar-toggler"
@@ -72,7 +74,11 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portal DNARISK</a>
+              <a
+                class="nav-link"
+                href="http://portal.interagerisk.com.br:8081/Login.aspx"
+                >Portal DNARISK</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
@@ -87,21 +93,20 @@
       </div>
     </nav>
 
-    <section>
-      <div class="text-center">
-        <img
-          src="img/Truck.png"
-          alt="Caminhao com Satelite"
-          class="img-fluid caminhao_main"
-        />
+    <section data-aos="fade-in">
+      <div class="text-center blackvideo" >
+        <video autoplay muted loop="loop" class="video">
+          <source src="img/truck.mp4" type="video/mp4">
+        </video>
       </div>
     </section>
 
+    <section></section>
     <main>
-      <section class="container container_nossainfra">
+      <section class="container container_nossainfra" data-aos="fade-in" >
         <div>
           <h2 class="text-center">NOSSA INFRAESTRUTURA</h2>
-          <hr class="risco" />
+          <hr class="hrrisco" />
           <h5 class="text-center">
             A DNA SOLUTIONS possui uma estrutura voltada a atender nossos
             clientes com segurança e eficiência:
@@ -109,5 +114,243 @@
         </div>
       </section>
     </main>
+
+    <div class="container text-center respiro_infra" data-aos="fade-up">
+      <div class="row justify-content-md-around ">
+        <div class="col-12 col-md-3 respiro_infra_responsividades">
+          <img src="img/24horas svg.png" alt="24 horas" class="svg " />
+          <h2 class="h2_infra">CENTRAL DE MONITORAMENTO 24H</h2>
+          <h6>
+            Opera 24 horas/dia (monitoramento/ rastreamento) todas as operações
+            de nossos clientes que possuem este serviço contratado. A Central da
+            Interage integra as principais tecnologias que utilizam comunicação
+            por satélite, celular e híbrido.
+          </h6>
+        </div>
+
+        <div class="col-12 col-md-3 respiro_infra_responsividades" >
+          <img src="img/Equipe svg.png" alt="Equipe" class="svg" />
+          <h2 class="h2_infra">
+            EQUIPE PRÓPRIA DE DESENVOLVIMENTO DE SISTEMAS
+          </h2>
+          <h6>
+            Operadores Capacitados, Operações Dedicadas, Segurança Patrimonial,
+            Pronta-Resposta (plano de contingênc
+          </h6>
+        </div>
+
+        <div class="col-12 col-md-3 respiro_infra_responsividades">
+          <img src="img/Energia svg.png" alt="Energia" class="svg" />
+          <h2 class="h2_infra">GERADORES PRÓPRIOS</h2>
+          <h6>
+            Nobreaks e geradores próprios com total segurança sem risco de perda
+            de energia.
+          </h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center respiro_infra" data-aos="fade-up">
+      <div class="row justify-content-md-around">
+        <div class="col-12 col-md-3 respiro_infra_responsividades">
+          <img src="img/Banco.png" alt="Banco de dados" class="svg" />
+          <h2 class="h2_infra">DATA CENTER PRÓPRIO</h2>
+          <h6>3 Links de internet Fibra e Radio</h6>
+        </div>
+
+        <div class="col-12 col-md-3 respiro_infra_responsividades">
+          <img src="img/Central.png" alt="Central de Imagem" class="svg" />
+          <h2 class="h2_infra">CENTRAL DE IMAGENS INTERNAS</h2>
+          <h6>
+            Em planejamento para implantação, Para acompanhar as operações e
+            minimizar os riscos patrimoniais, bem como os cuidados e a dinâmica
+            de operação de vários tipos de clientes.
+          </h6>
+        </div>
+
+        <div class="col-12 col-md-3 respiro_infra_responsividades">
+          <img
+            src="img/Atendimento.png"
+            alt="Atendimento Operacional"
+            class="svg"
+          />
+          <h2 class="h2_infra">ATENDIMENTO OPERACIONAL 24H</h2>
+          <h6>Equipe atendendo no suporte 24h</h6>
+        </div>
+      </div>
+    </div>
+
+<section class="respiro_tecnologia " data-aos="fade-in">
+    <div class="container imgcaminhao_tecnologia alinhamento_tecnologia_h2 shadow p-3 mb-5 bg-body rounded">
+        <div>
+        <h5 class="h2_tecnologia">Trabalhamos com as melhores<br> tecnologias de rastreamento
+        </div>
+          </h5>
+        </div>
+      </div>
+    </div>
+</section>
+
+    <section class="container" data-aos="fade-in">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide respiro_dos_logos text-center" data-bs-ride="carousel">
+              
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center">
+                    <div class="col-4 col-md-1">
+                      <img src="img/unnamed.png" alt="" class="logo_onix">
+                    </div>
+                    <div class="col-4 col-md-2">
+                      <img src="img/logo-omnilink.png" alt="" class="logo_om_sascar logos_mobile">
+                    </div>
+                    <div class="col-4 col-md-2">
+                      <img src="img/sascar.png" alt="" class="logo_om_sascar logos_mobile">
+                    </div>
+                    <div class="col-4 col-md-1">
+                      <img src="img/logo_autosat.png" alt="" class="logo_om_sascar logos_mobile">
+                    </div> 
+                  </div>   
+                </div>      
+                <div class="carousel-item">
+                  <div class="row justify-content-center">
+                    <div class="col-4 col-md-2">
+                      <img src="img/logo_ituram.png" class="logo_om_sascar logos_mobile">
+                    </div>
+                    <div class="col-4 col-md-2">
+                      <img src="img/logo_autotrac.png" alt="" class="logo_onix logos_mobile">
+                    </div>
+                    <div class="col-4 col-md-2">
+                      <img src="img/logo_ravex.png" alt="" class="logo_ravex logos_mobile">
+                    </div>
+                    <div class="col-4 col-md-2">
+                      <img src="img/logo_positron.png" alt="" class="logo_om_sascar logos_mobile">
+                    </div> 
+                  </div>
+                </div>
+              
+                </div>
+                <div class="container">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                
+              </div>
+              <div class="carousel-indicators carrolindicato">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+            </div>
+            </div>
+            
+    </section>
+
+    <div class="container text-center respiro_sobre" data-aos="fade-up">
+      <div class="row justify-content-md-center align-items-center">
+        <div class="col col-md-5 text-start">
+          <h5 class="h5_sobrenos">Sobre nos</h5>
+          <p class="p_sobrenos">Apresentamos a DNA SOLUTIONS, uma empresa com mais de 21 anos de mercado e reformulada em todos os setores, 
+            com novo proprietário e novo conceito, visando praticar as melhores soluções em Produtos e Serviços de Gerenciamento de Riscos, 
+            operando através da correta análise em aplicação dentro do SuplyChain, que permite atuar, controlar e dirimir riscos que podem impactar o nível 
+            de serviço de seus clientes, a saúde financeira, além de expor negativamente a imagem das empresas.
+          </p>
+          <p class="p_sobrenos">Garantia de uma vez executada a rotina técnica  Interage, de cobertura securitária de suas operações. 
+            Visibilidade das cargas em 
+            trânsito (veículos carregados e vazios) através do nosso Sistema de Gerenciamento Controle de jornada de motoristas 
+            com informações geradas pelo sistema de rastreamento/monitoramento</p>
+            <button type="button" class="btn btn-dark shadow-sm ">Sobre nós</button>
+
+        </div>
+        <div class="col col-md-4 ">
+          <img src="img/sobrenos.png" alt="sobre nos " class="imgsobrenos shadow-sm">
+        </div>
+      </div>
+    </div>
+
+  <section class="text-center h2_empresas" data-aos="fade-in">
+    <div>
+      <h2 class="h2_empresas">Empresas que escolheram as soluções da DNA RISK
+      </h2>
+    </div>
+  </section>
+  
+  <section class="container" data-aos="fade-in">
+    <div id="carouselExampleDark2" class="carousel carousel-dark slide respiro_dos_empresas text-center" data-bs-ride="carousel">
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-4 col-md-2">
+              <img src="img/maria-fumaca-log-coronel-vivida-pr-ramo-transportadora-atividade-geral_g 1.png" alt="" class="imgmariafumaca">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="img/logo sem fundo 1.png" alt="" class="logo_empresas logos_mobile">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="img/logo_empresa_grupo_1029_25032021_101421 1.png" alt="" class="logo_empresas logos_mobile">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="img/4863e60fb7a2d3e33775da516edd3e61 1.png" alt="" class="logo_empresas logos_mobile">
+            </div> 
+          </div>   
+        </div>      
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            
+            <div class="col-4 col-md-2">
+              <img src="img/download.png" class="logo_empresas_carrosel2 logos_mobile">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="img/Logo-3-300x68.png" alt="" class="logo_empresas_carrosel2 logos_mobile">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="img/Logo_Rodorgacia.webp" alt="" class="logo_empresas_carrosel2 logos_mobile">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="img/39143.png" alt="" class="logo_empresas logos_mobile">
+            </div> 
+          </div>
+        </div>
+      
+        </div>
+        <div class="container">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+          <span class="" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+          <span class="" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators carrolindicato">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+      
+    </div>
+</section>
+
+
+
+<br>
+<br>
+<br>
+<footer class="blackfooter " >
+  <div class="container d-flex justify-content-center"> 
+    <img src="img/DNA_LogoFundoVazadoBranco.png" alt="DNA SOLUTIONS" class="logo_dna_navbar ">
+    </div>
+  </div>
+  <br>
+</footer>
+  
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="js/scrollfixed.js" type="text/javascript"></script>
   </body>
 </html>

@@ -1,9 +1,28 @@
-@media (max-width: 992px) {
-  .logo_dna_navbar {
-    margin-right: 0px;
+@media (max-width: 767px) {
+  .caixanav_logo {
+    margin-right: 125px;
   }
 
   .contatophone {
     margin-left: 0px;
+  }
+
+  .respiro_infra {
+    padding-top: 68px;
+  }
+
+  .respiro_infra_responsividades {
+    padding-top: 15px;
+  }
+
+  .logos_mobile {
+    width: 105px;
+    height: 65px;
+  }
+}
+
+@media (max-width: 1278px) {
+  .blackvideo {
+    height: 236px;
   }
 }
